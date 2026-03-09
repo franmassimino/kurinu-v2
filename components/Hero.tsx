@@ -14,7 +14,7 @@ export default function Hero() {
       />
 
       {/* Dark overlay — subtle so the photo shows through */}
-      <div className="absolute inset-0 bg-black/35" />
+      <div className="absolute inset-0 bg-black/55 md:bg-black/35" />
 
       {/* Content */}
       <div className="relative z-10 px-5 md:px-8 max-w-6xl mx-auto w-full">

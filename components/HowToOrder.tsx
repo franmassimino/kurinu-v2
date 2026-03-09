@@ -29,7 +29,7 @@ const steps = [
 
 export default function HowToOrder() {
   return (
-    <section id="order" className="py-20 bg-white">
+    <section id="order" className="py-12 md:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         {/* Supertitle */}
         <p className="text-center text-xs text-[#1a1a1a]/50 uppercase tracking-widest mb-3">

@@ -10,7 +10,7 @@ function Mascot({ name, src, size = "w-32 h-32" }: { name: string; src: string; 
 
 export default function About() {
   return (
-    <section id="about" className="py-12 bg-white">
+    <section id="about" className="pt-12 pb-0 md:py-12 bg-white">
       <div className="max-w-3xl mx-auto px-6">
 
         {/* Mobile layout: título → mascotas → texto */}
@@ -38,6 +38,8 @@ export default function About() {
               ahead as we develop our own device!
             </p>
           </div>
+          {/* Separator mobile */}
+          <hr className="md:hidden w-full border-t border-[#C5BEF5]/40 mt-6" />
         </div>
 
         {/* Desktop layout: mascota — título — mascota, luego texto */}
