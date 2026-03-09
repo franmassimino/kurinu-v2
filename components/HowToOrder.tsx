@@ -64,7 +64,7 @@ export default function HowToOrder() {
                 >
                   {step.title}
                 </h3>
-                <p className="text-[#1a1a1a]/60 text-sm leading-relaxed">
+                <p className="text-[#1a1a1a] text-sm leading-relaxed">
                   {step.description}
                 </p>
               </div>
@@ -86,7 +86,7 @@ export default function HowToOrder() {
                 >
                   {step.title}
                 </h3>
-                <p className="text-[#1a1a1a]/60 text-xs leading-relaxed">
+                <p className="text-[#1a1a1a] text-sm leading-relaxed">
                   {step.description}
                 </p>
               </div>

@@ -26,13 +26,13 @@ export default function About() {
             <Mascot name="Sima" src="/assets/sima.png" size="w-32 h-32" />
           </div>
           <div className="flex flex-col gap-4">
-            <p className="text-[#5a5a8a] leading-relaxed text-sm">
+            <p className="text-[#1a1a1a] leading-relaxed text-sm">
               Hello! We&apos;re Yenna and Sima, two big fans of Tamagotchis.{" "}
-              <strong className="text-[#5a5a8a]">Yenna</strong> is a freelance illustrator working under the
-              name Spikhyenna, while <strong className="text-[#5a5a8a]">Sima</strong> is an independent
+              <strong className="text-[#1a1a1a]">Yenna</strong> is a freelance illustrator working under the
+              name Spikhyenna, while <strong className="text-[#1a1a1a]">Sima</strong> is an independent
               photographer and filmmaker with a keen interest in programming.
             </p>
-            <p className="text-[#5a5a8a] leading-relaxed text-sm">
+            <p className="text-[#1a1a1a] leading-relaxed text-sm">
               Since 2023, we&apos;ve been working together to bring this fantastic
               idea to life. We hope you like it and support us on the journey
               ahead as we develop our own device!
@@ -44,7 +44,7 @@ export default function About() {
 
         {/* Desktop layout: mascota — título — mascota, luego texto */}
         <div className="hidden md:block">
-          <div className="flex items-end justify-center gap-4 mb-8">
+          <div className="flex items-end justify-center gap-4">
             <Mascot name="Yenna" src="/assets/yenna.png" size="w-48 h-48" />
             <h2
               className="text-3xl text-[#1a1a1a] whitespace-nowrap mb-12"
@@ -55,13 +55,13 @@ export default function About() {
             <Mascot name="Sima" src="/assets/sima.png" size="w-48 h-48" />
           </div>
           <div className="flex flex-col gap-4 text-center">
-            <p className="text-[#5a5a8a] leading-relaxed text-base">
+            <p className="text-[#1a1a1a] leading-relaxed text-base">
               Hello! We&apos;re Yenna and Sima, two big fans of Tamagotchis.{" "}
-              <strong className="text-[#5a5a8a]">Yenna</strong> is a freelance illustrator working under the
-              name Spikhyenna, while <strong className="text-[#5a5a8a]">Sima</strong> is an independent
+              <strong className="text-[#1a1a1a]">Yenna</strong> is a freelance illustrator working under the
+              name Spikhyenna, while <strong className="text-[#1a1a1a]">Sima</strong> is an independent
               photographer and filmmaker with a keen interest in programming.
             </p>
-            <p className="text-[#5a5a8a] leading-relaxed text-base">
+            <p className="text-[#1a1a1a] leading-relaxed text-base">
               Since 2023, we&apos;ve been working together to bring this fantastic
               idea to life. We hope you like it and support us on the journey
               ahead as we develop our own device!

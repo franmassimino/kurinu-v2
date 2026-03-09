@@ -18,7 +18,7 @@ export default function Gallery() {
               Custom <span className="gradient-text">E-Pet</span>
             </h2>
 
-            <p className="text-[#5a5a8a] leading-relaxed text-sm">
+            <p className="text-[#1a1a1a] leading-relaxed text-sm md:text-base">
               Experience the joy of owning a personalized E-Pet that reflects
               your style and character. With the combination of our unique
               artwork and advanced programming,{" "}
