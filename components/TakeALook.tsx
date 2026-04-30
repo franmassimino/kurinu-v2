@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TakeALook() {
   return (
     <section id="gallery" className="py-20 bg-white">
@@ -11,29 +13,44 @@ export default function TakeALook() {
 
         {/* Asymmetric grid: tall image left, 2 squares right */}
         <div className="grid grid-cols-2 gap-3 max-w-4xl mx-auto">
-          {/* Left: tall placeholder spanning 2 rows */}
-          <div className="row-span-2 bg-gray-200 rounded-sm" style={{ minHeight: "480px" }} />
-
-          {/* Right top: square placeholder */}
-          <div className="aspect-square bg-gray-300 rounded-sm" />
-
-          {/* Right bottom: two side-by-side squares */}
-          <div className="grid grid-cols-2 gap-3">
-            <div className="aspect-square bg-gray-200 rounded-sm" />
-            <div className="aspect-square bg-gray-300 rounded-sm" />
+          {/* Left: tall image spanning 2 rows */}
+          <div className="row-span-2 relative rounded-sm overflow-hidden" style={{ minHeight: "480px" }}>
+            <Image src="/assets/1.webp" alt="E-Pet 1" fill className="object-cover" />
           </div>
 
-          
-          {/* Left: tall placeholder spanning 2 rows */}
-          <div className="aspect-square bg-gray-300 rounded-sm" />
-
-          {/* Right top: square placeholder */}
-          <div className="row-span-2 bg-gray-200 rounded-sm" style={{ minHeight: "480px" }} />
+          {/* Right top: square */}
+          <div className="relative aspect-square rounded-sm overflow-hidden">
+            <Image src="/assets/2.webp" alt="E-Pet 2" fill className="object-cover" />
+          </div>
 
           {/* Right bottom: two side-by-side squares */}
           <div className="grid grid-cols-2 gap-3">
-            <div className="aspect-square bg-gray-200 rounded-sm" />
-            <div className="aspect-square bg-gray-300 rounded-sm" />
+            <div className="relative aspect-square rounded-sm overflow-hidden">
+              <Image src="/assets/3.webp" alt="E-Pet 3" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-square rounded-sm overflow-hidden">
+              <Image src="/assets/4.png" alt="E-Pet 4" fill className="object-cover" />
+            </div>
+          </div>
+
+          {/* Left: square */}
+          <div className="relative aspect-square rounded-sm overflow-hidden">
+            <Image src="/assets/5.webp" alt="E-Pet 5" fill className="object-cover" />
+          </div>
+
+          {/* Right: tall image spanning 2 rows */}
+          <div className="row-span-2 relative rounded-sm overflow-hidden" style={{ minHeight: "480px" }}>
+            <Image src="/assets/g-1.webp" alt="E-Pet 6" fill className="object-cover" />
+          </div>
+
+          {/* Left bottom: two side-by-side squares */}
+          <div className="grid grid-cols-2 gap-3">
+            <div className="relative aspect-square rounded-sm overflow-hidden">
+              <Image src="/assets/g-2.webp" alt="E-Pet 7" fill className="object-cover" />
+            </div>
+            <div className="relative aspect-square rounded-sm overflow-hidden">
+              <Image src="/assets/g-3.webp" alt="E-Pet 8" fill className="object-cover" />
+            </div>
           </div>
         </div>
 
