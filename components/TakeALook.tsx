@@ -34,7 +34,7 @@ export default function TakeALook() {
   }, [selected, close, prev, next]);
 
   return (
-    <section id="gallery" className="py-20 bg-white">
+    <section id="gallery" className="pt-20 pb-10 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2
           className="text-2xl md:text-3xl text-center text-text mb-12"
@@ -44,7 +44,7 @@ export default function TakeALook() {
         </h2>
 
         {/* 4 cols, filas de 150px. Layout explícito por celda */}
-        <div className="w-full grid grid-cols-4 gap-2" style={{ gridTemplateRows: "repeat(11, 150px)" }}>
+        <div className="w-full grid grid-cols-4 gap-2" style={{ gridTemplateRows: "repeat(10, clamp(80px, 18vw, 150px))" }}>
 
           {/* 8: cols 1-2, rows 1-4 */}
           <div

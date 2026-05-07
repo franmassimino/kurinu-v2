@@ -1,6 +1,6 @@
 export default function WhatIsKurinu() {
   return (
-    <section id="what-is-kurinu" className="pt-12 pb-0 md:py-12 bg-white">
+    <section id="what-is-kurinu" className="pt-16 pb-0 md:pt-20 md:pb-0 bg-white">
       <div className="max-w-3xl mx-auto px-6">
 
         {/* Mobile */}

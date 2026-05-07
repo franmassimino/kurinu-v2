@@ -26,7 +26,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-16 bg-[#C5BEF5]/50">
+    <section className="py-20 bg-[#C5BEF5]/50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {features.map((feature) => (

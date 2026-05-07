@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-16 bg-white">
+    <section id="gallery" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-5 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
 
