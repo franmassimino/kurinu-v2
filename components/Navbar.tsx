@@ -48,9 +48,6 @@ export default function Navbar() {
                 )}
               </div>
             ))}
-            <Link href="#contact" className="btn-outline-white text-sm ml-2">
-              Contact
-            </Link>
           </div>
 
           {/* Mobile hamburger */}
@@ -92,20 +89,6 @@ export default function Navbar() {
             {link.label}
           </Link>
         ))}
-        <Link
-          href="#contact"
-          className={`btn-outline-white mt-4 transition-all duration-300 ${
-            menuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-          }`}
-          style={{
-            fontFamily: "var(--font-dogica), monospace",
-            fontSize: "0.75rem",
-            transitionDelay: menuOpen ? `${navLinks.length * 60}ms` : "0ms",
-          }}
-          onClick={() => setMenuOpen(false)}
-        >
-          Contact
-        </Link>
       </div>
     </>
   );

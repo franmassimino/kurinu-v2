@@ -9,7 +9,6 @@ const linksCol1 = [
 ];
 
 const linksCol2 = [
-  { label: "Contact", href: "#contact" },
   { label: "Terms of service", href: "#" },
   { label: "User instructions", href: "#" },
 ];
