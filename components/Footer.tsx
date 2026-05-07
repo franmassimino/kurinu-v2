@@ -22,15 +22,13 @@ export default function Footer() {
           {/* Logo column */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-md overflow-hidden shrink-0 gradient-bg flex items-center justify-center">
-                {/* Replace with <Image src="/logo.png" ... /> once asset is ready */}
-                <span
-                  className="text-white text-xs font-bold"
-                  style={{ fontFamily: "var(--font-dogica), monospace" }}
-                >
-                  K
-                </span>
-              </div>
+              <Image
+                src="/assets/logo.webp"
+                alt="Kurinu E-Pets logo"
+                width={40}
+                height={40}
+                className="rounded-md shrink-0"
+              />
               <div
                 className="flex flex-col leading-none"
                 style={{ fontFamily: "var(--font-dogica), monospace" }}
