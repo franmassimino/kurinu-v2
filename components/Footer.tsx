@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const linksCol1 = [
   { label: "Home", href: "#" },
-  { label: "About", href: "#about" },
   { label: "Gallery", href: "#gallery" },
   { label: "Order yours", href: "#order" },
 ];

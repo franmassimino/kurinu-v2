@@ -31,6 +31,17 @@ export default function WhatIsKurinu() {
               such as original faceplates, and bespoke merchandise tailored to each
               client&apos;s chosen character.
             </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-sm font-bold mt-2">
+              This project is now permanently closed. We are deeply grateful to every
+              client and supporter who followed and supported us throughout the years.
+            </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-sm font-bold">
+              Thank you for being part of Kurinu.
+            </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-sm font-bold">
+              This website now lives on as a portfolio archive of what the project
+              once was :)
+            </p>
           </div>
           <hr className="md:hidden w-full border-t border-[#C5BEF5]/40 mt-6" />
         </div>
@@ -64,6 +75,17 @@ export default function WhatIsKurinu() {
               character-specific in-device items, fully personalized device elements
               such as original faceplates, and bespoke merchandise tailored to each
               client&apos;s chosen character.
+            </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-base font-bold mt-2">
+              This project is now permanently closed. We are deeply grateful to every
+              client and supporter who followed and supported us throughout the years.
+            </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-base font-bold">
+              Thank you for being part of Kurinu.
+            </p>
+            <p className="text-[#1a1a1a] leading-relaxed text-base font-bold">
+              This website now lives on as a portfolio archive of what the project
+              once was :)
             </p>
           </div>
         </div>

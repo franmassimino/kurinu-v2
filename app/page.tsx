@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhatIsKurinu from "@/components/WhatIsKurinu";
-import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import Features from "@/components/Features";
 import TakeALook from "@/components/TakeALook";
@@ -16,7 +15,6 @@ export default function Home() {
       <main>
         <Hero />
         <WhatIsKurinu />
-        <About />
         <Gallery />
         <Features />
         <TakeALook />
